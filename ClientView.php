@@ -11,6 +11,8 @@
  *
  * @author LENOVO-2021
  */
+include_once 'UsersView.php';
+
 class ClientView implements UsersView{
     //put your code here
     public function Checkvaildation() {
