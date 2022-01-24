@@ -16,9 +16,9 @@ class Donation {
     public $DonationType;
    
     function setDonationData() {
-        
+        echo("set Donation data");
     }
     function getDonationData() {
-        
+        echo("get Donation data");
     }
 }
