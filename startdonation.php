@@ -7,21 +7,13 @@
  */
 
 /**
- * Description of Donor
+ * Description of startdonation
  *
  * @author lenovo
  */
 include_once 'donorstate.php';
-class Donor {
-    public Donor(){
-        state = null;
-    }
-
-   public void dodonation(State donorstate){
-      this.state = state;		
-   }
-
-   public State dodonation(){
-      return dodonation;
-    }
+class startdonation implements donorstate{
+    public function Dodonation($Donor){
+        echo 'Start donation';
+    }    
 }
