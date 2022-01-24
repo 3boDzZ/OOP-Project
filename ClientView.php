@@ -16,19 +16,19 @@ include_once 'UsersView.php';
 class ClientView implements UsersView{
     //put your code here
     public function Checkvaildation() {
-        
+        echo("Client view validation");
     }
 
     public function Login() {
-        
+        echo ("Client view login");
     }
 
     public function SetUserData() {
-        
+        echo ("Client view set data");
     }
 
     public function Signup() {
-        
+        echo ("Client view signup");
     }
 
     public function selectUserType() {
