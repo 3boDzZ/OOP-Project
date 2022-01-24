@@ -15,10 +15,10 @@ class DonorView extends ClientView {
     //put your code here
     public function addDonation()
     {
-        
+        echo ("Donor View add Donation");
     }
     public function cancelDonation()
     {
-        
+        echo ("Donor cancel donation");
     }
 }
